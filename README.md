@@ -41,21 +41,18 @@ export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
 bin/kafka-server-start.sh config/server.properties
 ```
 
-### Step 5: Configure Kafka for Public IP (If running on EC2 with Public IP)
-#### - Edit the config/server.properties file:
-sudo nano config/server.properties
-#### - Find the ADVERTISED_LISTENERS configuration and set it to the public IP of your EC2 instance:
-#### ADVERTISED_LISTENERS=PLAINTEXT://<public_ip>:9092
 
-### Step 6: Create a Kafka Topic
+### Step 5: Create a Kafka Topic
 ```bash
 bin/kafka-topics.sh --create --topic demo_testing2 --bootstrap-server <public_ip>:9092 --replication-factor 1 --partitions 1
 ```
-### Step 7: Start the Kafka Producer
+### Step 6: Start the Kafka Producer
 ```bash
 bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server <public_ip>:9092
 ```
-### Step 8: Start the Kafka Consumer (In a new console)
+### Step 7: Start the Kafka Consumer (In a new console)
 ```bash
 bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server <public_ip>:9092
 ```
+## Architecture 
+<a align="center"><img src="architecture.jpg"></a>
