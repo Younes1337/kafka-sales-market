@@ -8,7 +8,7 @@
     <a title="Amazon.com Inc., Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg">
         <img width="90" alt="Amazon Web Services Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png">
     </a>
-    <a href="https://cdnlogo.com/logo/python_358.html" width="50"><img src="https://www.cdnlogo.com/logos/p/3/python.svg"></a>
+    <a href="https://cdnlogo.com/logo/python_358.html" ><img src="https://www.cdnlogo.com/logos/p/3/python.svg" width="50"></a>
 </p>
 
 Welcome to the **Kafka realtime sales market**! This project is a demonstration of setting up and running Apache Kafka on an AWS EC2 instance. It allows you to create a Kafka topic, produce messages, and consume messages using the Kafka console tools.
