@@ -6,7 +6,7 @@
         <img width="50" alt="Apache kafka" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/128px-Apache_kafka.svg.png">
     </a>
     <a title="Amazon.com Inc., Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg">
-        <img width="50" alt="Amazon Web Services Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png">
+        <img width="90" alt="Amazon Web Services Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png">
     </a>
 </p>
 
@@ -64,4 +64,18 @@ bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server <public_i
 <p align="center">
    <a><img src="Architecture.jpg"></a>
 </p>
+
+## Technology Used 🚀
+
+- Programming Language: Python 🐍
+- Amazon Web Services (AWS) ☁️
+
+  - S3 (Simple Storage Service) 🗄️
+  - Athena 📊
+  - Glue Crawler 🐜
+  - Glue Catalog 📑
+  - EC2 💻
+
+- Apache Kafka 🚀
+
 
