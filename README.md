@@ -1,8 +1,14 @@
 # <p align="center"><span style="color:green">Kafka Sales Market realtime</span> 👋</p>
 
 
-<a align="center" title="Apache Software Foundation, Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Apache_kafka.svg"><img width="50" alt="Apache kafka" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/128px-Apache_kafka.svg.png"></a>
-<a align="center" title="Amazon.com Inc., Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg"><img width="50" alt="Amazon Web Services Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png"></a>
+<p align="center">
+    <a title="Apache Software Foundation, Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Apache_kafka.svg">
+        <img width="50" alt="Apache kafka" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Apache_kafka.svg/128px-Apache_kafka.svg.png">
+    </a>
+    <a title="Amazon.com Inc., Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_Logo.svg">
+        <img width="50" alt="Amazon Web Services Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png">
+    </a>
+</p>
 
 Welcome to the **Kafka realtime sales market**! This project is a demonstration of setting up and running Apache Kafka on an AWS EC2 instance. It allows you to create a Kafka topic, produce messages, and consume messages using the Kafka console tools.
 
@@ -55,4 +61,7 @@ bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server <public_i
 bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server <public_ip>:9092
 ```
 ## Architecture 
-<a align="center"><img src="Architecture.jpg"></a>
+<p align="center">
+   <a><img src="Architecture.jpg"></a>
+</p>
+
