@@ -55,4 +55,4 @@ bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server <public_i
 bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server <public_ip>:9092
 ```
 ## Architecture 
-<a align="center"><img src="architecture.jpg"></a>
+<a align="center"><img src="Architecture.jpg"></a>
